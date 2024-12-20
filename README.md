@@ -8,6 +8,9 @@
 - I have switched from the Biglobe Hikari 1G package to the Biglobe 10Giga package, but the transition encountered difficulties because IPv4 is no longer supported. It only supports IPv6, and I had to find a way to use MAP-E to enable IPv4 functionality.
 - Although I am eager to use other Router OS options like OPNsense or PFSense, they cannot obtain IPv6 from the ISP due to an incompatible prefix.
 - OpenWrt is my last resort, but I will try again with OPNsense later.
+- I don't want to use the default shell because I want to understand how I configure everything myself. https://github.com/fakemanhk/openwrt-jp-ipoe/tree/main
+
+
 
 #### Configuration
 By default, upon booting after installation, three interfaces are preconfigured: lan, wan, and wan6.
