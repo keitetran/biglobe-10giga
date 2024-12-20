@@ -68,7 +68,7 @@ IPv6 RA Settings: Default
 
 ![image](https://github.com/user-attachments/assets/a1477f22-c498-4f25-b2a6-18c180ec6742)
 
-*   Next will be setting up new MAP-E interface, create a new interface and name it (e.g. _WAN6MAPE_), and fill the parameters using above generated parameters:
+*   Next will be setting up new MAP-E interface, create a new interface and name it (e.g. _mape_), and fill the parameters using above generated parameters:
     *   Protocol: MAP/LW4over6
     *   Type: MAP-E
     *   BR/DMR/AFTR: _\[peeraddr\]_
@@ -85,7 +85,7 @@ IPv6 RA Settings: Default
 ![image](https://github.com/user-attachments/assets/5d0bec45-9d6a-4112-aeab-45636f82376e)
 
 
-Note: Don't forget to add this _WAN6MAPE_ interface to same firewall zone as WAN/WAN6 since this is also part of WAN.
+Note: Don't forget to add this _mape_ interface to same firewall zone as WAN/WAN6 since this is also part of WAN.
 
 
 6. All done. More infogmation https://github.com/fakemanhk/openwrt-jp-ipoe/blob/main/README.md
